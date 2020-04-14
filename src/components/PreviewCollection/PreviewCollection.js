@@ -4,8 +4,6 @@ import '../CollectionItem/CollectionItem';
 import CollectionItem from '../CollectionItem/CollectionItem';
 
 const PreviewCollection = ({title, items}) => {
-    console.log(title);
-    console.log(items);
     return(
         <div className='preview-collection'>
             <h1 className='title'>{title.toUpperCase()}</h1>
