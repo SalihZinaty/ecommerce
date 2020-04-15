@@ -13,7 +13,6 @@ const Header = ({currentUser,hidden}) =>
     <div className='header'>
         <Link to="/">
             <Crown className='crown mr3' />
-            {currentUser === null ? 'Hi, Guest' : `HI, ${currentUser.displayName.toUpperCase()}`}
         </Link>
         <div className='options'>
             <Link className='option' to='/shop' >SHOP</Link>
